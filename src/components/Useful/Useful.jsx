@@ -1,16 +1,18 @@
+import { Link } from 'react-router-dom';
 
+//Link é a tag a (ancora) do react e o href agr é to, deixando minha tela estavel e so trocando as rotas
 // para abrir outra pagina quando clicar (target=_blank)
-export const Useful = ({ margin, color, textDecoration, href, value }) => {
+export const Useful = ({ margin, color, textDecoration, to, value, target }) => {
   return (
     <p style={{ margin: margin }}>
-      <a
+      <Link
         style={{
           color: color,
           textDecoration: textDecoration
         }}
-        href={href}
-        target="_blank"
-      >{value}</a>
+        to={to}
+        target={target}
+      >{value}</Link>
     </p>
   );
 }
