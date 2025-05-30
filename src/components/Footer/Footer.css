@@ -1,0 +1,44 @@
+#footer {
+  width: 100%;
+  background-color: #1f1f1f;
+}
+
+#footer .box-footer{
+  border: 1px solid red;
+  width: 90rem;
+  height: 28.375rem;
+  margin: 0 auto;
+  flex-direction: column;
+  display: flex;
+  padding: 5rem;
+ 
+}
+
+.box-footer-children{
+  border: 1px solid red;
+  width: 6.25rem;
+  margin-top: 4.5rem;
+  
+}
+
+#login{
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  color:white;
+  position: absolute;
+}
+
+.box-footer-children #lorem{
+  border: 2px solid red;
+  font-family: 'Inter', sans-serif;
+  width: 19.188rem;
+  height: 4.875rem;
+  top: 9.438rem;
+  line-height: 1.625rem ;
+  font-size: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}

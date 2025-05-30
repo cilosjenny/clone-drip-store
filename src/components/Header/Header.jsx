@@ -61,7 +61,7 @@ export const Header = () => {
                 color={'#666666'}
                 to={'/ofertas'}
               />
-            </li>
+            </li> 
           </Nav>
         </div>
         <Button
