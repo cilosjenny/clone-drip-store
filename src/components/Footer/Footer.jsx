@@ -10,12 +10,14 @@ export const Footer = () => {
       <div className="box-footer">
         <Logo id='login'
           width={"15.813rem"}
-          // margin={"4.5rem 0 21.125rem 6.5rem"}
           color={'#ffffff'} />
 
-        <p id='lorem'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+        <p id='lorem'>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+        </p>
 
-        <div id='imagens-footer'>
+        <div
+          id='imagens-footer'>
           <img className='facebook' src="../../../public/Facebook.svg" />
           <img className='instagram' src="../../../public/Instagram.svg" />
           <img className='twitter' src="../../../public/Twitter.svg" />
@@ -40,12 +42,13 @@ export const Footer = () => {
         </div>
 
         <p id='categorias-footer'>Categorias</p>
-        
-        {/* <Nav
+
+        <Nav
+          className={'nav-footer'}
           position={'absolute'}
-          width={'53.063rem'}
-          height={'11.875rem'}
-          top={'7.625rem'}
+          flexDirection={'column'}
+          gap={'1.3rem'}
+          margin={'3.5rem 47.3rem  '}
         >
           <li>
             <Useful
@@ -82,7 +85,23 @@ export const Footer = () => {
               to={'produtos'}
             />
           </li>
-        </Nav> */}
+        </Nav>
+
+        <p id='contato-footer'>
+          Contato
+        </p>
+
+        <p
+          className='local-contato-footer'>
+          Av. Santos Dumont, 1510 - 1<br />
+          andar - Aldeota, Fortaleza -<br />
+          CE, 60150-161
+        </p>
+        <p className='numero-contato-footer'>
+          (85) 3051-3411
+        </p>
+
+        <hr id='hr-footer' />
 
       </div>
     </footer>

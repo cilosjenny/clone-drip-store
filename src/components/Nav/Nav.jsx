@@ -1,7 +1,7 @@
 import './Nav.css';
 
 // qm chamar é qm vai dizer o tamanho 
-export const Nav = ({ children, flexDirection, width, height, position, gap, margin, top }) => {
+export const Nav = ({ children, flexDirection, width, height, position, gap, margin, top, }) => {
   return (
     <nav style={{
       position: position,
