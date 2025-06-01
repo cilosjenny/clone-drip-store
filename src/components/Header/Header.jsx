@@ -19,7 +19,7 @@ export const Header = () => {
             width={'34.938rem'}
             height={'3.75rem'}
             src={'../../../public/search.svg'}
-          />
+          /> 
           <Useful
             value={'Cadastre-se'}
             margin={'1.2rem 0 0 0'}
