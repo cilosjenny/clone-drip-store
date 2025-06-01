@@ -3,7 +3,6 @@ import { Nav } from '../Nav/Nav';
 import { Useful } from '../Useful/Useful';
 import './Footer.css';
 
-
 export const Footer = () => {
   return (
     <footer id='footer'>
@@ -101,7 +100,11 @@ export const Footer = () => {
           (85) 3051-3411
         </p>
 
-        <hr id='hr-footer' />
+        <hr id='hr-footer'></hr>
+
+        <p id='copywriting'>
+          © 2022 Digital College
+        </p>
 
       </div>
     </footer>
